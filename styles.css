@@ -58,19 +58,6 @@ tr:nth-child(odd) {
   margin-bottom: 0.5rem;
 }
 
-/* .container-modal {
-  width: 300px;
-  border: solid black 1px;
-  display: flex;
-  justify-content: center;
-  margin-left: 40%;
-  position: fixed;
-  top: 200;
-  left: 500;
-  z-index: 1;
-  background-color: pink;
-} */
-
 .row {
   display: flex;
   justify-content: center;
@@ -101,34 +88,28 @@ label {
 }
 
 .open-modal {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  background-color: rgb(74, 75, 232);
+  background-color: #6c757b;
   color: white;
   font-family: sans-serif;
-  padding: 0.8rem 3rem;
-  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
   border: none;
-  font-size: 22px;
-  box-shadow: 3px 3px 10px rgb(167, 167, 167);
 }
 
 .popup {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  width: 400px;
   align-items: center;
   background-color: white;
-  left: 400px;
-  top: 200px;
-  padding: 3.5rem 3rem;
-  border-radius: 0.5rem;
   position: fixed;
+  margin-top: 16%;
+  border: solid black 1px;
 }
 
 .gray-background {
-  background-color: rgb(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.1);
   position: fixed;
   left: 0;
   right: 0;
@@ -146,4 +127,8 @@ label {
   border: none;
   font-size: 25px;
   box-shadow: 0 2px rgb(167, 167, 167);
+}
+
+.container-modal {
+  padding: 1rem;
 }
