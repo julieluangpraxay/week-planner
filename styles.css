@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 header {
   text-align: center;
 }
 
 h2 {
   text-align: center;
+  margin: 2rem;
 }
 
 .column-full {
@@ -13,4 +19,19 @@ h2 {
 
 table {
   empty-cells: show;
+  border: 1px solid black;
+  width: 80%;
+}
+
+td {
+  border: 1px solid black;
+  height: 1rem;
+}
+
+tr:nth-child(odd) {
+  background-color: #d2d2d2;
+}
+
+.days-scroll {
+  margin-bottom: 1rem;
 }
