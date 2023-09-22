@@ -56,3 +56,11 @@ tr:nth-child(odd) {
   justify-content: center;
   margin-bottom: 0.5rem;
 }
+
+.container-modal {
+  width: 300px;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
