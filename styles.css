@@ -1,50 +1,16 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: sans-serif;
+header {
+  text-align: center;
 }
 
-.container {
-  max-width: 575px;
+h2 {
+  text-align: center;
 }
 
-.row {
+.column-full {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 table {
-  border: solid black 1px;
-  padding: 1rem;
-}
-
-header {
-  font-size: 30px;
-}
-
-.column-full,
-.column-half {
-  width: 100%;
-}
-
-.hidden {
-  display: none !important;
-}
-
-tr:nth-child(odd) {
-  background-color: blueviolet;
-}
-
-th {
-  background-color: white;
-}
-
-form {
-  border: 2px solid black;
-  width: 400px;
-}
-
-form > .row {
-  justify-content: center;
+  empty-cells: show;
 }

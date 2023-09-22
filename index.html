@@ -13,18 +13,18 @@
     <div class="row">
       <div class="column-full">
         <header>
-          <h2>Weekly Planner</h2>
+          <h1>Weekly Planner</h1>
         </header>
       </div>
     </div>
     <div class="row">
       <div class="column-full">
-        <h1>Choose Day to Show Event</h1>
+        <h2>Choose Day to Show Event</h2>
       </div>
     </div>
     <div class="row">
       <div class="column-full">
-        <label for="day">Day of the Week</label>
+        <label for="day" class="days-scroll">Day of the Week</label>
       </div>
     </div>
     <div class="row">
@@ -40,9 +40,10 @@
         </select>
       </div>
     </div>
-
-    <div class="row">
+    <div class="column-full">
       <button>Add New Event</button>
+    </div>
+    <div class="column-full">
       <table>
         <thead>
           <tr>
@@ -53,14 +54,39 @@
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -69,9 +95,17 @@
   <div class="container">
     <div class="row">
       <div class="column-full">
+        <label for="appt">Time of Event:</label>
         <form>
-          <label for="appt">Time of Event:</label>
-          <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+          <select name="day-of-week">
+            <option value="">1200</option>
+            <option value="">1300</option>
+            <option value="">1400</option>
+            <option value="">1500</option>
+            <option value="">1600</option>
+            <option value="">1700</option>
+            <option value="">1800</option>
+          </select>
       </div>
     </div>
     <div class="row">
