@@ -19,12 +19,17 @@ h2 {
 
 table {
   empty-cells: show;
-  border: 1px solid black;
   width: 80%;
+  border: lightgrey;
+  border: solid 1px;
+}
+
+th {
+  background-color: #fff;
+  text-align: left;
 }
 
 td {
-  border: 1px solid black;
   height: 1rem;
 }
 
@@ -33,5 +38,21 @@ tr:nth-child(odd) {
 }
 
 .days-scroll {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#days {
+  margin-bottom: 2rem;
+}
+
+.column-select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.column-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
