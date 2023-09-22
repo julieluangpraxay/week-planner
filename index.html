@@ -66,34 +66,37 @@
       </table>
     </div>
   </div>
-  <form>
+  <div class="container">
     <div class="row">
       <div class="column-full">
-        <label>Time of Event:</label>
-        <div class="column-full"></div>
-        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+        <form>
+          <label for="appt">Time of Event:</label>
+          <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
       </div>
     </div>
-
     <div class="row">
-      <label for="day-of-week">Day of the Week:</label>
+      <div class="column-full">
+        <label for="day-of-week">Day of the Week:</label>
+      </div>
     </div>
     <div class="row">
-      <select>
-        <option value="monday">Monday</option>
-        <option value="tuesday">Tuesday</option>
-        <option value="wednesday">Wednesay</option>
-        <option value="thursday">Thursday</option>
-        <option value="friday">Friday</option>
-        <option value="saturday">Saturday</option>
-        <option value="sunday">Sunday</option>
-      </select>
+      <div class="column-full">
+        <select name="day-of-week">
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesay</option>
+          <option value="thursday">Thursday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
+          <option value="sunday">Sunday</option>
+        </select>
+      </div>
     </div>
     <div class="row">
-      <label for="event-info">Event Information:</label>
-    </div>
-    <div class="row">
-      <textarea name="event-info" id="event-info" cols="30" rows="10"></textarea>
+      <div class="column-full">
+        <label for="event-info">Event Information:</label>
+        <textarea name="event-info" id="event-info" cols="30" rows="10"></textarea>
+      </div>
     </div>
   </form>
   <script src="main.js"></script>

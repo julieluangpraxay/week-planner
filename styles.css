@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+.container {
+  max-width: 575px;
+}
+
 .row {
   display: flex;
   justify-content: center;
