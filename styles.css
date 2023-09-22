@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: sans-serif;
 }
 
 header {
@@ -65,8 +66,10 @@ tr:nth-child(odd) {
 
 .button-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
+  margin-top: 0.6rem;
+  border: none;
 }
 
 .form-select {
@@ -84,7 +87,7 @@ label {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .open-modal {
@@ -117,18 +120,22 @@ label {
   top: 0;
 }
 
-.no-button {
-  margin-top: 3rem;
-  background-color: rgb(235, 93, 93);
-  color: white;
-  font-family: sans-serif;
-  padding: 0.7rem 2.6rem;
-  border-radius: 0.4rem;
-  border: none;
-  font-size: 25px;
-  box-shadow: 0 2px rgb(167, 167, 167);
-}
-
 .container-modal {
   padding: 1rem;
+}
+
+.cancel-button {
+  background-color: #6c757b;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.confirm-button {
+  background-color: #198754;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  border: none;
 }
