@@ -15,6 +15,7 @@ h2 {
 .column-full {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 table {
@@ -57,10 +58,92 @@ tr:nth-child(odd) {
   margin-bottom: 0.5rem;
 }
 
-.container-modal {
+/* .container-modal {
   width: 300px;
   border: solid black 1px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin-left: 40%;
+  position: fixed;
+  top: 200;
+  left: 500;
+  z-index: 1;
+  background-color: pink;
+} */
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-select {
+  width: 250px;
+}
+
+label {
+  text-align: left;
+}
+
+.modal-row {
+  text-align: left;
+  display: flex;
+  justify-content: start;
+}
+
+.hidden {
+  display: none;
+}
+
+.open-modal {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: rgb(74, 75, 232);
+  color: white;
+  font-family: sans-serif;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 22px;
+  box-shadow: 3px 3px 10px rgb(167, 167, 167);
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  background-color: white;
+  left: 400px;
+  top: 200px;
+  padding: 3.5rem 3rem;
+  border-radius: 0.5rem;
+  position: fixed;
+}
+
+.gray-background {
+  background-color: rgb(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.no-button {
+  margin-top: 3rem;
+  background-color: rgb(235, 93, 93);
+  color: white;
+  font-family: sans-serif;
+  padding: 0.7rem 2.6rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 25px;
+  box-shadow: 0 2px rgb(167, 167, 167);
 }
